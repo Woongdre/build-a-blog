@@ -5,13 +5,13 @@
 <form action="/add_blog" method="POST">
     <label for="new_blog">Title for your new blog:</label>
     <br/>
-    <input id="new_blog" type="text" name="new_blog" value={{new_blog}} />
+    <input id="new_blog" type="text" name="new_blog" value="{{new_blog}}" />
     <br/>
     <br/>
     <br/>
     <label for="blog_entry">Your new blog:</label>
     <br/>
-    <input id="blog_entry" type="text" name="blog_entry" value={{blog_entry}} />
+    <textarea id="blog_entry" name="blog_entry">{{blog_entry}}</textarea>
     <br/>
     <input type="submit" value="Add Entry" />
 </form>
